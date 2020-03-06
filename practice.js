@@ -68,12 +68,12 @@ var backPack = {
 }
 var item = 'firstPocket'
 backPack[item] = "chapstick"
-backpack.color = "black"
+backPack.color = "black"
 /*
   After you do the above, alert your entire backPack object.
 */
 
-alert(backPack)
+// alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -86,7 +86,7 @@ console.log(backPack)
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var user2 = {
+let user2 = {
   name: 'Bryan',
   age: 24,
   pwHash: 'U+Ldlngx2BYQk',
@@ -102,8 +102,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-user2.name = "Bryan G. Smith"
-user2.email = "bryan.smith@devmounta.in"
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -114,7 +114,7 @@ user2.email = "bryan.smith@devmounta.in"
   Create an empty object called methodCollection.
 */
 
-//Code Here
+methodCollection()
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
